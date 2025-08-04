@@ -1,11 +1,21 @@
-import React from 'react'
-
-const App = () => {
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import Contact from './pages/contact';
+import Home from './pages/Home';
+ 
+function App() {
   return (
-    <div>
-   <p>kjndjhfiudbfgud</p>
-    </div>
-  )
+    <>
+     <Router>
+      
+        <Routes>
+          <Route  index element={<Home />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      
+    </Router>
+    </>
+  );
 }
 
-export default App
+export default App;
