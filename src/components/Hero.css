@@ -1,0 +1,63 @@
+.hero {
+background-image: url('/assets/images/makeup.jpg');
+background-size: cover;
+background-position: center;
+height: 100vh;
+position: relative;
+display: flex;
+align-items:center;
+justify-content: center;
+}
+
+.overlay {
+    background-color: rgba(0,0,0,0.6);
+    width: 100%;
+    height: 100%;
+    display: flex;
+
+    
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-content {
+    text-align: center;
+    color: white;
+    padding: 0 20px;
+}
+
+.hero-subtitle {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+.hero-title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+.divider {
+    width: 80px;
+    height: 3px;
+    background-color: #e91e63;
+    margin: 0 auto 20px;
+}
+
+.hero-btn {
+    background-color: #e91e63;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: 0.3s ease;
+
+
+}
+.hero-btn:hover{
+    background-color: #c2185b;
+}
