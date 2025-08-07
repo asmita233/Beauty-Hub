@@ -1,12 +1,11 @@
 import React from "react";
-import Hero from "../components/Hero";
-import About from "../components/About";
-import Services from "../components/Services";
-import Gallery from "../components/Gallery";
-import Testimonials from "../components/Testimonials";
-import BlogPreview from "../components/BlogPreview";
-import CTASection from "../components/CTASection";
-import ContactSection from "../components/ContactSection";
+import Hero from "./Hero";
+import About from "./About";
+import Services from "./Services";
+import Gallery from "./Gallery";
+import Testimonials from "./Testimonials";
+import BlogPreview from "./BlogPreview";
+import CTASection from "./CTASection";
 import Footer from "../components/Footer";
 
 
