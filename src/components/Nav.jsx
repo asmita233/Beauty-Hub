@@ -9,7 +9,10 @@ const Nav= () => {
       </div>
       <ul className="flex space-x-6">
         <li>
-          <Link to="/" className="text-white hover:text-pink-400">Home</Link>
+          <Link to="/" className="text-white hover:text-pink-400">Landing</Link>
+        </li>
+        <li>
+          <Link to="/Home" className="text-white hover:text-pink-400">Home</Link>
         </li>
         <li>
           <Link to="/products" className="text-white hover:text-pink-400">Products</Link>
