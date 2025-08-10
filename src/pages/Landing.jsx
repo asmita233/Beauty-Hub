@@ -46,7 +46,12 @@ function Landing(){
         </ul>
         </div>
         </div>
-  
+      <button
+        onClick={() => navigate("/signup")}
+        className="bg-purple-600 text-white px-6 py-3 rounded-xl hover:bg-purple-800 transition"
+      >
+        Get Started ➡️
+      </button>
   </>
 
     )
