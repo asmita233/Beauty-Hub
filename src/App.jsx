@@ -1,11 +1,21 @@
-import React from 'react'
+
+import React from 'react';
+import Blog  from "./blog";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom"
+
+
 
 const App = () => {
   return (
-    <div>
-   
-    </div>
+    <Router>
+      <Routes>
+
+    <Route path="/" element={<Blog />} />
+
+   </Routes>
+  </Router>
+    
   )
 }
 
-export default App
+export default App;
